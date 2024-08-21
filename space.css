@@ -1,0 +1,50 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#board {
+    background-color: black;
+}
+
+#left-button {
+    border-radius: 50%; /* Yuvarlak buton */
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent; /* iOS Safari ve Android */
+    outline: none;
+}
+
+#shoot {
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent; /* iOS Safari ve Android */
+    outline: none;
+}
+
+#right-button {
+    border-radius: 70%; /* Yuvarlak buton */
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+    /* align-items: center; */
+    -webkit-tap-highlight-color: transparent; /* iOS Safari ve Android */
+    outline: none;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
